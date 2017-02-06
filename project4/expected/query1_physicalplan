@@ -1,0 +1,7 @@
+ExternalSort[Reserves.G]
+-SMJ[Sailors.A = Reserves.G]
+--ExternalSort[Sailors.A]
+---TableScan[Sailors]
+--ExternalSort[Reserves.G]
+---Select[Reserves.H < 50]
+----TableScan[Reserves]

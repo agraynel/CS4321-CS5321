@@ -1,0 +1,3 @@
+/Users/Agraynel/Desktop/CS5321/project5/input1
+/Users/Agraynel/Desktop/CS5321/project5/output
+/Users/Agraynel/Desktop/CS5321/project5/temp

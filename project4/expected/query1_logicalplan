@@ -1,0 +1,7 @@
+Sort[Reserves.G]
+-Join[]
+[[Reserves.H], equals null, min null, max 49]
+[[Reserves.G, Sailors.A], equals null, min null, max null]
+--Leaf[Sailors]
+--Select[Reserves.H <= 49]
+---Leaf[Reserves]

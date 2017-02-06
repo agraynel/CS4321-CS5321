@@ -1,0 +1,12 @@
+DupElim
+-Sort[B.D, R1.H]
+--Project[S1.A, R1.H, S1.B, B.D]
+---Join[]
+[[S1.A, R1.H], equals null, min 35, max 76]
+[[B.D], equals null, min 55, max 131]
+----Select[R1.H >= 35 AND R1.H <= 76]
+-----Leaf[Reserves]
+----Select[S1.A >= 35 AND S1.A <= 76]
+-----Leaf[Sailors]
+----Select[B.D >= 55 AND B.D <= 131]
+-----Leaf[Boats]

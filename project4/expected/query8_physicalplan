@@ -1,0 +1,13 @@
+DupElim
+-ExternalSort[B.D, R1.H]
+--Project[S1.A, R1.H, S1.B, B.D]
+---BNLJ[]
+----SMJ[S1.A = R1.H]
+-----ExternalSort[R1.H]
+------Select[R1.H > 34 AND R1.H < 77]
+-------TableScan[Reserves]
+-----ExternalSort[S1.A]
+------Select[S1.A > 34 AND S1.A < 77]
+-------TableScan[Sailors]
+----Select[B.D > 54 AND B.D < 132]
+-----TableScan[Boats]

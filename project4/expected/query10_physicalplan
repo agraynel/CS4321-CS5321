@@ -1,0 +1,6 @@
+ExternalSort[R2.H]
+-SMJ[R1.H = R2.H]
+--ExternalSort[R1.H]
+---TableScan[Reserves]
+--ExternalSort[R2.H]
+---TableScan[Reserves]

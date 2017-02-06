@@ -1,0 +1,7 @@
+DupElim
+-ExternalSort[R2.G]
+--Project[R1.G, R2.G]
+---BNLJ[R1.G < R2.G]
+----Select[R1.H > 130]
+-----TableScan[Reserves]
+----TableScan[Reserves]

@@ -1,0 +1,10 @@
+DupElim
+-Sort[B2.F]
+--Project[B1.D, B2.F]
+---Join[B1.D > B2.F]
+[[B1.E, B2.E], equals null, min null, max 999]
+[[B2.D], equals null, min 8000, max null]
+----Select[B1.E <> 200 AND B1.E <= 999]
+-----Leaf[Boats]
+----Select[B2.D >= 8000 AND B2.E <= 999]
+-----Leaf[Boats]

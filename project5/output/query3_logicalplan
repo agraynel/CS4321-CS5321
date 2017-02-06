@@ -1,0 +1,3 @@
+Sort[Sailors.B]
+-Select[Sailors.B <= 299 AND Sailors.C >= 7901]
+--Leaf[Sailors]

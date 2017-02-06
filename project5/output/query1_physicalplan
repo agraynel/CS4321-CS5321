@@ -1,0 +1,10 @@
+DupElim
+-ExternalSort[A.B]
+--Project[A.B]
+---SMJ[A.A = B.A]
+----ExternalSort[A.A]
+-----Select[A.C > 9050]
+------TableScan[Sailors]
+----ExternalSort[B.A]
+-----Select[B.B > 7800 AND B.B < 7500]
+------TableScan[Sailors]

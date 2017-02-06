@@ -1,0 +1,3 @@
+ExternalSort[Sailors.B]
+-Select[Sailors.B < 300 AND Sailors.C > 7900]
+--TableScan[Sailors]

@@ -1,0 +1,8 @@
+DupElim
+-ExternalSort[B2.F]
+--Project[B1.D, B2.F]
+---BNLJ[B1.E = B2.E AND B1.D > B2.F]
+----Select[B1.E <> 200 AND B1.E < 1000]
+-----TableScan[Boats]
+----Select[B2.D > 7999 AND B2.E < 1000]
+-----TableScan[Boats]

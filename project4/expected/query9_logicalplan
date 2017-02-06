@@ -1,0 +1,8 @@
+DupElim
+-Sort[R2.G]
+--Project[R1.G, R2.G]
+---Join[R1.G < R2.G]
+[[R1.H], equals null, min 131, max null]
+----Select[R1.H >= 131]
+-----Leaf[Reserves]
+----Leaf[Reserves]

@@ -1,0 +1,3 @@
+Sort[Sailors.A]
+-Select[Sailors.B >= Sailors.C AND Sailors.A <= 39]
+--Leaf[Sailors]

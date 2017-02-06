@@ -1,0 +1,7 @@
+ExternalSort[Sailors.C]
+-Project[Boats.E, Sailors.C]
+--BNLJ[Boats.E <= Sailors.B AND Sailors.B = Boats.F]
+---Select[Sailors.B < 201]
+----IndexScan[Sailors, A, 9001, 10000]
+---Select[Boats.F < 201]
+----TableScan[Boats]
